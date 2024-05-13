@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Lyrics
 
 Develop an elegant React.js Music Application. 
@@ -134,3 +135,7 @@ Here we are going to focus on 2. Creating a Topical Branch:
 8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
 
 #
+=======
+# Syngg-MusicApp
+ "Syngg is a dynamic music application crafted with React, Tailwind CSS, and Express.js. Syngg leverages the Shazam Core RapidAPI to provide users with an immersive music discovery experience. Explore, discover, and enjoy your favorite tunes like never before with Syngg."
+>>>>>>> 59d647271504399c566479c73f595642aaaa3d15
