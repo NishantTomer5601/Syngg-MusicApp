@@ -1,8 +1,3 @@
-const TopPlay = () => (
-  <div>TopPlay</div>
-);
-
-export default TopPlay;
 /* eslint-disable import/no-unresolved */
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
@@ -25,7 +20,7 @@ const TopChartCard = ({ song, i, isPlaying, activeSong, handlePauseClick, handle
       <div className="flex-1 flex flex-col justify-center mx-3">
         <Link to={`/songs/${song.key}`}>
           <p className="text-xl font-bold text-white">
-            {song?.attributes.albumName}
+            {song?.title}
           </p>
         </Link>
         <Link to={`/artists/${song?.artists[0].adamid}`}>
