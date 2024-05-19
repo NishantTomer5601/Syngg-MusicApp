@@ -50,7 +50,7 @@ const TopPlay = () => {
     divRef.current.scrollIntoView({ behavior: 'smooth' });
   });
 
-  const topPlays = data?.slice(0, 5);
+  const topPlays = data?.data?.slice(0, 5);
 
   const handlePauseClick = () => {
     dispatch(playPause(false));
@@ -109,7 +109,7 @@ const TopPlay = () => {
               style={{ width: '25%', height: 'auto' }}
               className="shadow-lg rounded-full animate-slideright"
             >
-              <Link to={`/artists/${artist?.artists[0].adamid}`}>
+              <Link to={`/artists/${artist?.artists[0]?.adamid}`}>
                 <img src={artist?.images?.background} alt="Name" className="rounded-full w-full object-cover" />
               </Link>
             </SwiperSlide>

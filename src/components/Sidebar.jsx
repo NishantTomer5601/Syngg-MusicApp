@@ -4,6 +4,8 @@ import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, Hi
 import { RiCloseLine } from 'react-icons/ri';
 
 import { logo } from '../assets';
+import newLogo from '../assets/logos.png';
+
 
 const links = [
   { name: 'Discover', to: '/', icon: HiOutlineHome },
@@ -34,7 +36,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
-        <img src={logo} alt="logo" className="w-full h-14 object-contain" />
+        <img src={newLogo} alt="logo" className="w-full h-14 object-contain" />
         <NavLinks />
       </div>
 
